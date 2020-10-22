@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Room Spawner
+  - Room Collector
+  - Ground
+  - Room End
+  - Room Start
   layers:
   - Default
   - TransparentFX
