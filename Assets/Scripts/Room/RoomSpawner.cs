@@ -5,30 +5,42 @@ using UnityEngine;
 public class RoomSpawner : MonoBehaviour
 {
     [SerializeField]
-    private GameObject[] Rooms;
+    private GameObject[] rooms;
     private List<GameObject> roomsToSpawn = new List<GameObject>();
+
+    private int roomNumber = 0;
 
     [SerializeField]
     private GameObject RoomCollector;
 
-    [SerializeField]
-    private GameObject TestRoom;
+    /* [SerializeField]
+    private GameObject TestRoom; */
 
-/*     void Awake()
+    void Awake()
     {
         initializeRooms();
     }
     void initializeRooms() {
-
-    } */
-
-    private void Start() {
-        Instantiate(TestRoom, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, 0),
-        new Quaternion(0,0,0,0));
+        int index = 0;
+		for(int i = 0; i < rooms.Length * 3; i++) {
+			GameObject obj = Instantiate(rooms[index], new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, 0),
+                                                                new Quaternion(0,0,0,0)) as GameObject;
+			roomsToSpawn.Add(obj);
+			roomsToSpawn[i].SetActive(false);
+			index++;
+			if(index == rooms.Length) 
+				index = 0;
+		}
     }
 
-    void Update()
-    {
-        
+    private void Start() {
+        roomsToSpawn[0].SetActive(true);
+    }
+
+    void OnTriggerExit(Collider target) {
+        if (target.tag == "Room End") {
+            roomNumber++;
+            roomsToSpawn[roomNumber].SetActive(true);
+        }
     }
 }
