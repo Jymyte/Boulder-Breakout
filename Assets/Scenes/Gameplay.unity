@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 25.15387, y: -66.43198}
+  m_AnchoredPosition: {x: 25.15393, y: -66.43201}
   m_SizeDelta: {x: 308.22748, y: 57.79265}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &33271562
@@ -951,6 +951,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43517b209ae41d248b113a4f0b61c862, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1158032760 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3600563235790125529, guid: 6aacd13b104cd0241a28354a2130d390, type: 3}
+  m_PrefabInstance: {fileID: 2026789761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &1158032765
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158032760}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.02
+  m_Center: {x: 0, y: 0.000000006519258, z: -0.0000000027939677}
 --- !u!1 &1283823499
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,9 +1014,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rooms:
-  - {fileID: 3336610135050581869, guid: 3754a87f29248574b8363606c53fa694, type: 3}
+  - {fileID: 3336610135050581869, guid: e5aee37a1b35a03468abc7a6f646dfa0, type: 3}
   - {fileID: 3336610135050581869, guid: caa022fecbddcb14baf21b43a0985b2c, type: 3}
   - {fileID: 3336610135050581869, guid: c4cbf1e369e8f04488d108d35c0de36a, type: 3}
+  - {fileID: 3336610135050581869, guid: 3754a87f29248574b8363606c53fa694, type: 3}
   RoomCollector: {fileID: 1491261917}
 --- !u!65 &1283823502
 BoxCollider:
@@ -1410,9 +1429,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94d92fd2041635042850e93bb909d437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pausePanel: {fileID: 0}
+  pausePanel: {fileID: 129268079}
   restartGameButton: {fileID: 0}
-  scoreText: {fileID: 0}
+  scoreText: {fileID: 33271562}
   pauseText: {fileID: 0}
 --- !u!1 &1767496710
 GameObject:
