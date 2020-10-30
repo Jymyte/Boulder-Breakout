@@ -1014,9 +1014,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rooms:
+  - {fileID: 3336610135050581869, guid: 5cc5c23770cc58c4d964efa71e74246d, type: 3}
+  - {fileID: 3336610135050581869, guid: 577d9e564c2bb824084c9be0e0ba9247, type: 3}
   - {fileID: 3336610135050581869, guid: e5aee37a1b35a03468abc7a6f646dfa0, type: 3}
-  - {fileID: 3336610135050581869, guid: caa022fecbddcb14baf21b43a0985b2c, type: 3}
-  - {fileID: 3336610135050581869, guid: c4cbf1e369e8f04488d108d35c0de36a, type: 3}
+  - {fileID: 3336610135050581869, guid: 3754a87f29248574b8363606c53fa694, type: 3}
   - {fileID: 3336610135050581869, guid: 3754a87f29248574b8363606c53fa694, type: 3}
   RoomCollector: {fileID: 1491261917}
 --- !u!65 &1283823502
@@ -1107,7 +1108,7 @@ MonoBehaviour:
   _maxRiseSpeed: 35
   _maxFallSpeed: 40
   _useGravity: 1
-  _gravity: {x: 0, y: -30, z: 0}
+  _gravity: {x: 0, y: -35, z: 0}
   _slideOnSteepSlope: 0
   _slopeLimit: 45
   _slideGravityMultiplier: 2
