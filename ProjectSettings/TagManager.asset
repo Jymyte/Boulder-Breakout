@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - Room End
   - Room Start
+  - Boulder
   layers:
   - Default
   - TransparentFX
