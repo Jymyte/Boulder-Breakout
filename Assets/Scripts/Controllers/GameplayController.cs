@@ -29,7 +29,23 @@ public class GameplayController : MonoBehaviour
 		StartCoroutine (CountScore());
 	}
 
-    	public void GoToMenu() {
+	void OnEnable() {
+		PlayerDied.endGame += PlayerDiedEndTheGame;
+	}
+
+	void OnDisable() {
+		PlayerDied.endGame -= PlayerDiedEndTheGame;
+	}
+
+	void PlayerDiedEndTheGame() {
+		pauseText.text = "Game Over";
+		pausePanel.SetActive (true);
+		restartGameButton.onClick.RemoveAllListeners ();
+		restartGameButton.onClick.AddListener (() => RestartGame());
+		Time.timeScale = 0f;
+	}	
+
+    public void GoToMenu() {
 		Time.timeScale = 1f;
 		SceneManager.LoadScene("MainMenu");
 	}
