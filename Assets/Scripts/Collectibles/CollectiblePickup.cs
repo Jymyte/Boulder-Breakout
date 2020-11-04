@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class CollectiblePickup : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public delegate void PickUp();
+    public static event PickUp pickUp;  
+
+    void itemPickedUp() {
+        if(pickUp != null) {
+            pickUp();
+        }
+
+        Destroy(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void OnTriggerEnter(Collider target) {
+        if(target.tag == "Player") {
+            itemPickedUp();
+        }
     }
+
 }
+

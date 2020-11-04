@@ -31,10 +31,16 @@ public class GameplayController : MonoBehaviour
 
 	void OnEnable() {
 		PlayerDied.endGame += PlayerDiedEndTheGame;
+		CollectiblePickup.pickUp += ItemPickedUpCountScore;
 	}
 
 	void OnDisable() {
 		PlayerDied.endGame -= PlayerDiedEndTheGame;
+		CollectiblePickup.pickUp -= ItemPickedUpCountScore;
+	}
+
+	void ItemPickedUpCountScore() {
+		score += 10;
 	}
 
 	void PlayerDiedEndTheGame() {
