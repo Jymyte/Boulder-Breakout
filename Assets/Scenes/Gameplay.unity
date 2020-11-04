@@ -696,23 +696,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &1482547500 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6941185515751253517, guid: d54caa441fedd4b4f93df14b24e680ea, type: 3}
-  m_PrefabInstance: {fileID: 6941185514270443297}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1482547501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1482547500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a37e2bdc3c9dd247bc025bffa21a309, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1491261917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1110,16 +1093,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c93063bde5c66c74e972a348f46116f1, type: 2}
-    - target: {fileID: 6941185515751253516, guid: d54caa441fedd4b4f93df14b24e680ea, type: 3}
-      propertyPath: _canCrouch
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6941185515751253517, guid: d54caa441fedd4b4f93df14b24e680ea, type: 3}
       propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6941185515751253517, guid: d54caa441fedd4b4f93df14b24e680ea, type: 3}
-      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6941185515751253523, guid: d54caa441fedd4b4f93df14b24e680ea, type: 3}
