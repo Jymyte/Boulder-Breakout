@@ -1110,6 +1110,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c93063bde5c66c74e972a348f46116f1, type: 2}
+    - target: {fileID: 6941185515751253516, guid: d54caa441fedd4b4f93df14b24e680ea, type: 3}
+      propertyPath: _canCrouch
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6941185515751253517, guid: d54caa441fedd4b4f93df14b24e680ea, type: 3}
       propertyPath: m_Name
       value: Player
