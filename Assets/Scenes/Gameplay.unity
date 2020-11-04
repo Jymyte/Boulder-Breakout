@@ -679,9 +679,10 @@ MonoBehaviour:
   rooms:
   - {fileID: 3336610135050581869, guid: 5cc5c23770cc58c4d964efa71e74246d, type: 3}
   - {fileID: 3336610135050581869, guid: 577d9e564c2bb824084c9be0e0ba9247, type: 3}
-  - {fileID: 3336610135050581869, guid: e5aee37a1b35a03468abc7a6f646dfa0, type: 3}
-  - {fileID: 3336610135050581869, guid: 3754a87f29248574b8363606c53fa694, type: 3}
-  - {fileID: 3336610135050581869, guid: 3754a87f29248574b8363606c53fa694, type: 3}
+  - {fileID: 3336610135050581869, guid: a5999f10a3fef964fbf9a90466ff1169, type: 3}
+  - {fileID: 3336610135050581869, guid: 13fc241f163ea244cb1f05be8dfff5ea, type: 3}
+  - {fileID: 3336610135050581869, guid: 0da4d443e48e50a44b1d31dded68388d, type: 3}
+  - {fileID: 3336610135050581869, guid: 36d95b1dc3d65ac4bb8005fe9063e65d, type: 3}
   RoomCollector: {fileID: 1491261917}
 --- !u!65 &1283823502
 BoxCollider:
@@ -1097,6 +1098,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6941185515751253522, guid: d54caa441fedd4b4f93df14b24e680ea, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6941185515751253522, guid: d54caa441fedd4b4f93df14b24e680ea, type: 3}
+      propertyPath: m_Size.x
+      value: 5.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6941185515751253522, guid: d54caa441fedd4b4f93df14b24e680ea, type: 3}
+      propertyPath: m_Size.y
+      value: 5.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6941185515751253522, guid: d54caa441fedd4b4f93df14b24e680ea, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3585532214543744222, guid: 7daf50ff3ae30b04693becacba8c84cb, type: 3}
     - target: {fileID: 6941185515751253523, guid: d54caa441fedd4b4f93df14b24e680ea, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
@@ -1141,5 +1158,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6941185516313960901, guid: d54caa441fedd4b4f93df14b24e680ea, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6941185515751253522, guid: d54caa441fedd4b4f93df14b24e680ea, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d54caa441fedd4b4f93df14b24e680ea, type: 3}
