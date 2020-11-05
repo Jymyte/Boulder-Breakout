@@ -756,9 +756,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rooms:
-  - {fileID: 3336610135050581869, guid: 13fc241f163ea244cb1f05be8dfff5ea, type: 3}
-  - {fileID: 3336610135050581869, guid: 5cc5c23770cc58c4d964efa71e74246d, type: 3}
-  - {fileID: 3336610135050581869, guid: 577d9e564c2bb824084c9be0e0ba9247, type: 3}
+  - {fileID: 3336610135050581869, guid: 36d95b1dc3d65ac4bb8005fe9063e65d, type: 3}
+  - {fileID: 3336610135050581869, guid: 1eaed62f5c13b23439a3813aed13f012, type: 3}
+  - {fileID: 3336610135050581869, guid: 900f4887df625e446bed56f2c731de4e, type: 3}
   - {fileID: 3336610135050581869, guid: a5999f10a3fef964fbf9a90466ff1169, type: 3}
   - {fileID: 3336610135050581869, guid: 13fc241f163ea244cb1f05be8dfff5ea, type: 3}
   RoomCollector: {fileID: 1491261917}
