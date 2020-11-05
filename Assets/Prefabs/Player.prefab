@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6941185515751253516}
   - component: {fileID: 6941185515751253522}
   - component: {fileID: 1482547501}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 6941185516313960900}
   - component: {fileID: 6941185516313960902}
   - component: {fileID: 6941185516313960903}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jumping_spritesheet_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -318,13 +318,25 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1142219282601974, guid: b8f637dc62673e04881baeb8f5baa100, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1661288174384934, guid: b8f637dc62673e04881baeb8f5baa100, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1661288174384934, guid: b8f637dc62673e04881baeb8f5baa100, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1844213582924534, guid: b8f637dc62673e04881baeb8f5baa100, type: 3}
       propertyPath: m_Name
       value: ECM_CapsuleDummy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1844213582924534, guid: b8f637dc62673e04881baeb8f5baa100, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4828881043188372, guid: b8f637dc62673e04881baeb8f5baa100, type: 3}
       propertyPath: m_LocalPosition.y

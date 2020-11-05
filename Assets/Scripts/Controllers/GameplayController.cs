@@ -10,10 +10,10 @@ public class GameplayController : MonoBehaviour
 	private GameObject pausePanel;
 
 	[SerializeField]
-	private Button restartGameButton;
+	private Button restartGameButton, pauseButton;
 
 	[SerializeField]
-	private Text scoreText, pauseText;
+	private Text scoreText;
 
 	private int score;
 
@@ -43,8 +43,14 @@ public class GameplayController : MonoBehaviour
 		score += 10;
 	}
 
+	public void PauseButton() {
+		Time.timeScale = 0f;
+		pausePanel.SetActive (true);
+		restartGameButton.onClick.RemoveAllListeners ();
+		restartGameButton.onClick.AddListener (() => ResumeGame());
+	}
+
 	void PlayerDiedEndTheGame() {
-		pauseText.text = "Game Over";
 		pausePanel.SetActive (true);
 		restartGameButton.onClick.RemoveAllListeners ();
 		restartGameButton.onClick.AddListener (() => RestartGame());
