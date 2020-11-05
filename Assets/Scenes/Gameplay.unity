@@ -1397,6 +1397,23 @@ MonoBehaviour:
   restartGameButton: {fileID: 5078860483607434903}
   scoreText: {fileID: 33271562}
   pauseText: {fileID: 5078860483607434902}
+--- !u!1 &1952634979 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6941185516313960901, guid: d54caa441fedd4b4f93df14b24e680ea, type: 3}
+  m_PrefabInstance: {fileID: 6941185514270443297}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1952634983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952634979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a00cd59acbfb9e4ebe6addc29aeaacb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2026789761
 PrefabInstance:
   m_ObjectHideFlags: 0
