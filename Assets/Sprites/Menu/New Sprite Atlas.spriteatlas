@@ -42,11 +42,10 @@ SpriteAtlas:
       enableTightPacking: 1
     variantMultiplier: 1
     packables:
-    - {fileID: 2800000, guid: 3432809c994172347b2c3fe52bce7505, type: 3}
+    - {fileID: 2800000, guid: bc562d99b194592469902a2df3deee14, type: 3}
     - {fileID: 2800000, guid: bff3b8c867ebe4d45876aaab3a09e284, type: 3}
     - {fileID: 2800000, guid: 69812a3e98c4592468d58d945e33d3e0, type: 3}
-    - {fileID: 2800000, guid: bc562d99b194592469902a2df3deee14, type: 3}
-    totalSpriteSurfaceArea: 1310720
+    totalSpriteSurfaceArea: 196608
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -54,12 +53,10 @@ SpriteAtlas:
   m_PackedSprites:
   - {fileID: 21300000, guid: bff3b8c867ebe4d45876aaab3a09e284, type: 3}
   - {fileID: 21300000, guid: bc562d99b194592469902a2df3deee14, type: 3}
-  - {fileID: 21300000, guid: 3432809c994172347b2c3fe52bce7505, type: 3}
   - {fileID: 21300000, guid: 69812a3e98c4592468d58d945e33d3e0, type: 3}
   m_PackedSpriteNamesToIndex:
   - playbutton
   - replaybutton
-  - backbutton
   - pausebutton
   m_Tag: New Sprite Atlas
   m_IsVariant: 0
