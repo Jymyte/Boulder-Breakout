@@ -538,6 +538,9 @@ MonoBehaviour:
   - {fileID: 3336610135050581869, guid: 13fc241f163ea244cb1f05be8dfff5ea, type: 3}
   - {fileID: 3336610135050581869, guid: 0da4d443e48e50a44b1d31dded68388d, type: 3}
   - {fileID: 3336610135050581869, guid: 36d95b1dc3d65ac4bb8005fe9063e65d, type: 3}
+  - {fileID: 3336610135050581869, guid: 1eaed62f5c13b23439a3813aed13f012, type: 3}
+  - {fileID: 3336610135050581869, guid: 900f4887df625e446bed56f2c731de4e, type: 3}
+  numberOfLoops: 10
   RoomCollector: {fileID: 1491261917}
 --- !u!65 &1283823502
 BoxCollider:

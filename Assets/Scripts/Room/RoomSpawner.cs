@@ -11,6 +11,9 @@ public class RoomSpawner : MonoBehaviour
     private int roomNumber = 0;
 
     [SerializeField]
+    private int numberOfLoops;
+
+    [SerializeField]
     private GameObject RoomCollector;
 
     /* [SerializeField]
@@ -22,7 +25,7 @@ public class RoomSpawner : MonoBehaviour
     }
     void initializeRooms() {
         int index = 0;
-		for(int i = 0; i < rooms.Length * 3; i++) {
+		for(int i = 0; i < rooms.Length * numberOfLoops; i++) {
 			GameObject obj = Instantiate(rooms[index], new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, 0),
                                                                 new Quaternion(0,0,0,0)) as GameObject;
 			roomsToSpawn.Add(obj);
